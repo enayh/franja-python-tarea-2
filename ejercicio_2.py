@@ -13,7 +13,7 @@ def main():
     opcion = int(input("Qué desea calcular? "))
 
     if opcion == 1:
-        radio = float(input("Ingrese un valor para el radio del cilindro: "))
+        radio = float(input("Ingrese un valor para el radio del círculo: "))
         ar = area(radio)
         print("El área del círculo es de "+str(ar))
     elif opcion == 2:
